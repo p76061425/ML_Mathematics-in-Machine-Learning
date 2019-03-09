@@ -39,19 +39,19 @@ Use the IMDB dataset to predict that a comment is positive or negative. (The for
 Assume ten coins with unknown but the same probability of head or tail are used for tossing. Each observation is composed of the tossing results of these ten coins. Let 𝑝 be the probability of tossing a head, and the probability of 𝒏 heads for the ten coins follows the binomial distribution</br>
 ![](https://i.imgur.com/BEyTvCH.png)
 
-Assume the prior probability distribution of 𝑝 is discrete and 𝑝 can be one of 11 kinds of values, i.e. 0.0, 0.1, 0.2,..., 1.0. Each observation can be used to update the belief of 𝑝.
+Assume the prior probability distribution of 𝑝 is discrete and 𝑝 can be one of 11 kinds of values, i.e. 0.0, 0.1, 0.2,..., 1.0. Each observation can be used to update the belief of 𝑝. </br>
 
-(1) Assume the distribution of the prior is
-(a) [1/11, 1/11, ..., 1/11] 
+(1) Assume the distribution of the prior is </br>
+(a) [1/11, 1/11, ..., 1/11]  </br>
 (b) [0.01, 0.01, 0.05, 0.08, 0.15, 0.4, 0.15, 0.08, 0.05, 0.01, 0.01]
-Write a code to draw the bar graph of prior, likelihood and posterior after an observation of ten coins with two heads and eight tails. Then print the estimation result of 𝑝 using MLE (Maximum likelihood Estimation) and MAP (Maximum a Posteriori Estimation) respectively
+Write a code to draw the bar graph of prior, likelihood and posterior after an observation of ten coins with two heads and eight tails. Then print the estimation result of 𝑝 using MLE (Maximum likelihood Estimation) and MAP (Maximum a Posteriori Estimation) respectively </br>
 
 ![](https://i.imgur.com/m3dpiIs.png)
 ![](https://i.imgur.com/9T7x9kB.png)
 ![](https://i.imgur.com/4kwotcG.png)
 ![](https://i.imgur.com/QTgo4jX.png)
 ![](https://i.imgur.com/dt6AJg5.png)
-![](https://i.imgur.com/NvRM9GE.png)
+![](https://i.imgur.com/NvRM9GE.png) </br>
 
 (2) Write a simulator of tossing the ten coins 50 times. Visualize the posterior bar graph every 10 observations
  
@@ -60,11 +60,11 @@ Write a code to draw the bar graph of prior, likelihood and posterior after an o
 ![](https://i.imgur.com/RFH57mk.png)
 ![](https://i.imgur.com/M9dIndR.png)
 ![](https://i.imgur.com/QV4gjb4.png)
-![](https://i.imgur.com/u51AFza.png)
+![](https://i.imgur.com/u51AFza.png)</br>
 
 Bonus: Draw the line graph of entropy of posterior and explain the trend of the curve
 
- ![](https://i.imgur.com/aqcqwNN.png)
+ ![](https://i.imgur.com/aqcqwNN.png) </br>
 可以看到隨著Observation變多，entropy的值也會隨著下降。
 
 
